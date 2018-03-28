@@ -9,7 +9,7 @@ function ScrollSpy (wrapper, opt) {
 
   this.offset = opt.offset || 0;
 
-  this.winH = this.win.innerHeight - offset;
+  this.winH = this.win.innerHeight - this.offset;
 
   this.className = opt.className;
 
